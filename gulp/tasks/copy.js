@@ -2,7 +2,7 @@ module.exports = function (gulp, plugins, config) {
   return function copy() {
     gulp.src(['config.json.example'])
       .pipe(gulp.dest(config.build));
-    gulp.src(['html/*.html', 'assets/favicon/*'])
+    gulp.src(['html/*.html', 'html/*.js', 'assets/favicon/*'])
       .pipe(gulp.dest(config.build));
     gulp.src(['assets/logo.svg', 'service-worker.js'])
       .pipe(gulp.dest(config.build));
