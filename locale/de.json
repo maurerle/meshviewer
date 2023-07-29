@@ -15,6 +15,8 @@
     "deactivated": "deaktiviert",
     "status": "Status",
     "firmware": "Firmware-Version",
+    "baseversion": "Base Version",
+    "deprecationStatus": "Veralterungsstatus",
     "hardware": "Geräte-Modell",
     "visible": "Auf der Karte sichtbar",
     "update": "Auto-Update",
@@ -95,6 +97,6 @@
   "none": "keine",
   "remove": "entfernen",
   "close": "schließen",
-  "deprecation": "Warnung: Dieser Knoten ist veraltet, und wird demnächst nicht mehr unterstützt. Mehr Infos unter <a href='https://openwrt.org/supported_devices/432_warning'>4/32 warning</a>. <br> Wenn du der Eigentümer des Gerätes bist, bitten wir dich, das Gerät zu ersetzen, um weiterhin am Netz teilnehmen zu können.",
+  "deprecationStatus": "Warnung: Dieser Knoten ist veraltet, und wird demnächst nicht mehr unterstützt. Mehr Infos unter <a href='https://openwrt.org/supported_devices/432_warning'>4/32 warning</a>. <br> Wenn du der Eigentümer des Gerätes bist, bitten wir dich, das Gerät zu ersetzen, um weiterhin am Netz teilnehmen zu können.",
   "loading": "%{name} graph (wird generiert)"
 }
